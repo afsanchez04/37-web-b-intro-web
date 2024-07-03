@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro HTML</title>
 </head>
-<body>
+
+<body style="background-color:rgb(253, 240, 224);">
 
     <!-- Etiquetas de titulación -->
     <!-- alt + shift + a -->
-    <h1>Tienda de naranjas 🍊</h1>
+    <h1>Tienda de <span style="color: orangered">naranjas</span> 🍊</h1>
     <h2>Las mejores naranjas de la granja</h2>
     <h3>Cononce nuestras ofertas</h3>
     <h4>Título h4</h4>
@@ -23,11 +25,13 @@
     <!-- Etiqueta de párrafo -->
     <!-- alt + z -->
     <p>En nuestra granja vas a comprar las mejores naranjas y las más jugosas.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum consequatur, atque vel id magni pariatur voluptates incidunt reprehenderit sit unde, quo esse cupiditate nostrum dolore molestias sint delectus ipsa laudantium.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum consequatur, atque vel id magni pariatur
+        voluptates incidunt reprehenderit sit unde, quo esse cupiditate nostrum dolore molestias sint delectus ipsa
+        laudantium.</p>
 
     <!-- Etiqueta de imagen -->
-     <figure>
-         <img src="./images/oranges.jpg" width="300px" alt="Naranjas jugosas" title="Naranjas">
+    <figure>
+        <img src="./images/oranges.jpg" width="300px" alt="Naranjas jugosas" title="Naranjas">
     </figure>
 
     <br>
@@ -63,14 +67,14 @@
 
 
     <!-- Table -->
-     <!-- Desarrollar una tabla de posiciones para una carrera de animales -->
+    <!-- Desarrollar una tabla de posiciones para una carrera de animales -->
 
 
-     <br>
-     <hr>
-     <br>
+    <br>
+    <hr>
+    <br>
 
-     <table border>
+    <table border>
         <tr>
             <th>Posición</th>
             <th>Animal</th>
@@ -83,14 +87,51 @@
             <td>Mexico</td>
             <td><a href="https://es.wikipedia.org/wiki/Oryctolagus_cuniculus">+ Info</a></td>
         </tr>
-     </table>
+    </table>
 
 
-    
-    
+    <br>
+    <hr>
+    <br>
+
+    <h2>Formularios</h2>
+
+    <form>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre" value="Pepe">
+        </div>
+        <div>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" placeholder="Correo">
+        </div>
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="Contraseña">
+        </div>
+        <div>
+            <input type="radio" name="frutas" id="manzana" value="manzana">
+            <label for="manzana">Manzana 🍎</label>
+            <br>
+            <input type="radio" name="frutas" id="piña" value="piña">
+            <label for="piña">Piña 🍍</label>
+            <br>
+            <input type="radio" name="frutas" id="uvas" value="uvas">
+            <label for="uvas">Uvas 🍇</label>
+            <br>
+            <input type="radio" name="frutas" id="fresa" value="fresa">
+            <label for="fresa">Fresa 🍓</label>
+        </div>
+        <input type="submit" value="Enviar información">
+
+    </form>
 
 
 
-    
+
+
+
+
 </body>
+
 </html>

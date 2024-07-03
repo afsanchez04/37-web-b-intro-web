@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blueviolet;
+    color: white;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+a{
+    color: yellow;
+}
+
+p{
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: rgba(245, 245, 220, 0.367);
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+}
+
+#titulo{
+    font-size: 4em;
+}
+
+#id .class p{
+    background-color: yellow;
+}
+
