@@ -21,7 +21,7 @@ p{
 }
 
 .btn{
-    background-color: rgba(245, 245, 220, 0.367);
+    background-color: rgba(245, 245, 220, 0.449);
     border: 2px solid white;
     text-decoration: none;
     padding: 10px 20px;
@@ -35,6 +35,26 @@ p{
 }
 
 #id .class p{
-    background-color: yellow;
+    background-color:navajowhite;
 }
 
+.fruta{
+    color: aquamarine;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fruta:hover{
+    color: yellow;
+    font-family: "Pacifico";
+}
+
+h1{
+    color: black;
+}
+
+h1{
+    color: rgb(255, 204, 204);
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
