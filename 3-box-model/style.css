@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+section{
+    background-color: rgb(44, 62, 93);
+    padding: 30px;
+    color: white;
+    width: 500px;
+    margin: 20px auto;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    background-color: rgb(73, 90, 119);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.card-icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 6px;
+    background-color: antiquewhite;
+}
+
+.verde{background-color: rgb(176, 236, 216);}
+.morado{background-color: rgb(230, 209, 255);}
+.red{background-color: rgb(255, 193, 254);}
+
+
+/* .sections{
+    background-color: aquamarine;
+    margin: 10px 20px 10px 20px;
+    padding: 20px 10px;
+} */
