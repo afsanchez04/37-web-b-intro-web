@@ -11,7 +11,8 @@
     align-items: center;
     color: white;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
+    padding: 100px 0;
     background-color: blueviolet;
 }
 .container h1{
@@ -33,8 +34,6 @@
     padding: 15px;
     background: rgb(160, 160, 145);
 }
-
-
 
 
 @media screen and (max-width: 1024px){
